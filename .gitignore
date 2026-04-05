@@ -1,0 +1,14 @@
+# Variables de entorno y secretos (¡NUNCA subir a Git!)
+.env
+
+# Bases de datos y archivos temporales de SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Configuraciones locales de tus editores
+.vscode/
+.jupyter/
+
+# Imágenes generadas por el código (Opcional, pero recomendado)
+*.png
