@@ -1,5 +1,7 @@
 # Variables de entorno y secretos (¡NUNCA subir a Git!)
 .env
+.env*
+!.env.example
 
 # Bases de datos y archivos temporales de SQLite
 *.db
@@ -12,3 +14,42 @@
 
 # Imágenes generadas por el código (Opcional, pero recomendado)
 *.png
+
+# Large ML models
+models/*.model
+models/*.model.*
+models/*.pkl
+models/*.pickle
+
+# Large data files & embeddings
+Notebooks/*.npy
+Notebooks/*.model
+Notebooks/*.model.*
+Notebooks/*.parquet
+Notebooks/clusters_*.csv
+datos/*.npy
+parquet/
+
+# Visualization files
+Notebooks/*.html
+*.html
+
+# Virtual environments
+.venv/
+pandas/
+venv/
+
+# Python cache & build
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
