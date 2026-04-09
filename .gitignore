@@ -1,10 +1,8 @@
 # Variables de entorno y secretos (¡NUNCA subir a Git!)
 .env
-.env*
-!.env.example
 
 # Bases de datos y archivos temporales de SQLite
-*.db
+.db
 *.db-shm
 *.db-wal
 
